@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nagayle School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- section one -->
+    <div class="Sub-header">
+        <div class="nav">
+        <img src="nagayle_logo.png" alt="">
+     <div class="nav-links" id="navlinks">
+          <i class="fa-solid fa-square-xmark" onclick="hidemenu()"></i>
+       <ul>
+        <li> <a href="index.html">HOME</a> </li>
+        <li> <a href="About.html">ABOUT</a> </li>
+        <li> <a href="Subjects.html">SUBJECTS</a> </li>
+        <li> <a href="blog.html">BLOG</a> </li>
+        <li> <a href="Contact-us.html">CONTACT</a> </li>
+       </ul>
+     </div>
+     <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+     </div>
+    <h1>CONTACT US</h1>
+    </div>
+            <!-- Contact -->
+
+           <div class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div class="con">
+                   <i class="fa fa-home"></i>
+                   <div>
+                    <h5>kaaran Road</h5>
+                    <p> haliimo hiite</p>
+                   </div>   
+                </div>
+                 <div class="con">
+                   <i class="fa fa-phone"></i>
+                   <div>
+                    <h5>+252616913269</h5>
+                    <p>monday to saturday 7:00am-5:00pm</p>
+                   </div>   
+                </div>
+                 <div class="con">
+                   <i class="fa fa-envelope"></i>
+                   <div>
+                    <h5>info@email.com</h5>
+                    <p>E-mail us please</p>
+                   </div>   
+                </div>
+                </div>
+                 <div class="contact-col">
+                   <form action="">
+                   <input type="text" placeholder="enter your name" required>  
+                   <input type="email" placeholder="enter your Email" required>  
+                   <input type="text" placeholder="enter your Subject" required>  
+                  <textarea rows="8" placeholder="message" required></textarea>
+                  <button type="submit" class="hero-btn red-btn">send message</button>
+                   </form> 
+                </div>
+            </div>
+           </div>  
+
+  <!-- footer -->
+
+        <div class="footer about-footer">
+            <h4>About Us</h4>
+            <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Porro corporis eaque nam<br> illum et nisi ipsum, 
+                 accusamus alias temporibus praesentium!</p>
+                 <div class="icons">
+                     <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                 </div>
+                 <p>All Rights Reserved To Nagayle School</p>
+        </div>
+
+
+
+<script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+          function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
