@@ -463,6 +463,17 @@ margin: auto;
 
 
 @media(max-width:760px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
     .testimonials-col img{
     width: 30px;
    margin-left: 0px;
@@ -519,6 +530,17 @@ margin: auto;
 
 
 @media(max-width:480px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
     .text-box{
     width: 100%;
     color: white;
